@@ -27,13 +27,13 @@ MobileNets are small, low-latency, low-power models parameterized to meet the re
 
 ## project directory and npm init
 
-1.Go to your local directory and make a new folder with **mobileNet_node**(You can give any name to it)
+1.Go to your local directory and make a new folder as **mobileNet_node**(You can give any name to it).
 
 2.Open your favourite code editor(in my case, i opened my vscode).
 
 3.Make a local folder **server**.
 
-4.**cd server/** - In your terminal write this to get inside server folder.
+4.**cd server/** - In your terminal, write this to get inside server folder.
 
 5.**npm init -y** - This will create a package.json file where all the dependencies of project exists.
 
@@ -89,7 +89,7 @@ package.json created at first will also change with added libraries
 
 2.start adding code in classify.js.
 
-3.This code here is to add the libraries.
+3.This code here will add the required libraries.
 
 ```
 const tf = require('@tensorflow/tfjs');
@@ -152,9 +152,9 @@ If the condition is not satisfied it will not process.
 
 1.Take the image of cat, dog or rabbit etc. to test the project.(Here I took cats.jpg)
 
-2.**cd server/** - in treminal to get into server folder.
+2.**cd server/** - in terminal, write this to get into server folder.
 
-3.**node classify.js cats.jpg** - This will console log out the predictions made on image(here the cat image) with className and probability.
+3.**node classify.js cats.jpg** - This will log out the predictions made on image(here the cat image) with className and probability.
 
 ## This is the image of classification
 
