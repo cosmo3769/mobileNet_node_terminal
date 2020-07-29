@@ -158,4 +158,4 @@ If the condition is not satisfied it will not process.
 
 ## This is the image of classification
 
-![image_classification_model](https://github.com/piyush-cosmo/mobileNet_node/server/mobileNet.png?raw=true)
+![image_classification_model](https://github.com/piyush-cosmo/mobileNet_node/server/master/mobileNet.png?raw=true)
